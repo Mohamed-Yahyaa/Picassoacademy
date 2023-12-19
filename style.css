@@ -22,7 +22,49 @@
     left: 0;
   }
   
+
   .desktop .navbar {
+    position: absolute;
+    top: 34px;
+    left: 141px;
+    display: flex;
+    align-items: center;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.desktop .text-wrapper,
+.desktop .text-wrapper-2,
+.desktop .text-wrapper-3 {
+    font-family: "Outfit", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 25px 16px; /* Adjust padding as needed */
+}
+
+.desktop .element {
+    width: 137px;
+    height: 104px;
+    object-fit: cover;
+    margin-right: 16px; /* Adjust margin as needed */
+}
+
+.desktop .text-wrapper-2 {
+    margin-left: 450px; /* Move Home to the right */
+}
+
+.desktop .text-wrapper-3 {
+    margin-left: 55px; /* Add space between Home and About */
+}
+
+.desktop .text-wrapper {
+  margin-left: 55px; /* Add space between Home and About */
+}
+
+
+  /* .desktop .navbar {
     position: absolute;
     width: 1099px;
     height: 104px;
@@ -76,7 +118,7 @@
     font-size: 27px;
     letter-spacing: 0;
     line-height: normal;
-  }
+  } */
   
   .desktop .ellipse {
     position: absolute;
@@ -156,7 +198,7 @@
   }
   
   .desktop .button {
-    position: absolute;
+    position:absolute;
     width: 262px;
     height: 102px;
     top: 402px;
@@ -303,7 +345,7 @@
   }
   
   .desktop .overlap-group-wrapper {
-    top: 371px;
+    top: 471px;
     left: 625px;
     position: absolute;
     width: 395px;
@@ -313,7 +355,7 @@
   }
   
   .desktop .overlap-group-2 {
-    position: relative;
+    position:absolute;
     width: 393px;
     height: 102px;
     background-color: #aa151b;
@@ -362,8 +404,19 @@
     top: 2209px;
     left: 160px;
   }
+  .desktop .overlap-wrapper-7 {
+    position: absolute;
+    width: 1120px;
+    height: 466px;
+    top: 2209px;
+    left: 160px;
+  }
   
   .desktop .overlap-3 {
+    position: relative;
+    height: 466px;
+  }
+  .desktop .overlap-7 {
     position: relative;
     height: 466px;
   }
