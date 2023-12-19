@@ -211,6 +211,8 @@
     position: relative;
     width: 260px;
     height: 102px;
+    top: -90px;
+    left: 80px;
     background-color: #aa151b;
     border-radius: 83px;
   }
@@ -358,10 +360,22 @@
     position:absolute;
     width: 393px;
     height: 102px;
+    right: 10px;
+    top: 160px;
     background-color: #aa151b;
     border-radius: 83px;
   }
   
+  .desktop .overlap-group-0 {
+    position:absolute;
+    width: 393px;
+    height: 102px;
+    left: 50px;
+    top: 380px;
+    background-color: #aa151b;
+    border-radius: 83px;
+  }
+
   .desktop .text-wrapper-12 {
     position: absolute;
     width: 97px;
@@ -404,22 +418,13 @@
     top: 2209px;
     left: 160px;
   }
-  .desktop .overlap-wrapper-7 {
-    position: absolute;
-    width: 1120px;
-    height: 466px;
-    top: 2209px;
-    left: 160px;
-  }
+ 
   
   .desktop .overlap-3 {
     position: relative;
     height: 466px;
   }
-  .desktop .overlap-7 {
-    position: relative;
-    height: 466px;
-  }
+ 
   
   .desktop .hero-3 {
     position: absolute;
