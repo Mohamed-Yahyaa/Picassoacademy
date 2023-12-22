@@ -1,0 +1,519 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 2816px;
+    position: relative;
+  }
+  
+  .desktop .overlap {
+    width: 1853px;
+    height: 1714px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+ 
+  .desktop .navbar {
+    position: absolute;
+    top: 34px;
+    left: 141px;
+    display: flex;
+    align-items: center;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.desktop .text-wrapper,
+.desktop .text-wrapper-2,
+.desktop .text-wrapper-3 {
+    font-family: "Outfit", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 25px 16px; /* Adjust padding as needed */
+}
+
+.desktop .element {
+    width: 137px;
+    height: 104px;
+    object-fit: cover;
+    margin-right: 16px; /* Adjust margin as needed */
+}
+
+.desktop .text-wrapper-2 {
+    margin-left: 450px; /* Move Home to the right */
+}
+
+.desktop .text-wrapper-3 {
+    margin-left: 55px; /* Add space between Home and About */
+}
+
+.desktop .text-wrapper {
+  margin-left: 55px; /* Add space between Home and About */
+}
+  
+  .desktop .img {
+    position: absolute;
+    width: 1155px;
+    height: 481px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    width: 678px;
+    top: 214px;
+    left: 159px;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    color: #1e1e1e;
+    font-size: var(--h1-font-size);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+    font-style: var(--h1-font-style);
+  }
+  
+  .desktop .group {
+    position: absolute;
+    width: 1125px;
+    height: 687px;
+    top: 381px;
+    left: 160px;
+  }
+  
+  .desktop .rectangle {
+    width: 456px;
+    height: 262px;
+    top: 81px;
+    left: 665px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    width: 656px;
+    top: 0;
+    left: 0;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 75px;
+  }
+  
+  .desktop .picasso-academy-is {
+    position: absolute;
+    width: 656px;
+    top: 119px;
+    left: 0;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: normal;
+  }
+  
+  .desktop .group-2 {
+    position: absolute;
+    width: 1132px;
+    height: 673px;
+    top: 1041px;
+    left: 159px;
+  }
+  
+  .desktop .rectangle-2 {
+    width: 450px;
+    height: 270px;
+    top: 81px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .overlap-group {
+    width: 656px;
+    height: 673px;
+    left: 472px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop .p {
+    top: 105px;
+    position: absolute;
+    width: 656px;
+    left: 0;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 75px;
+  }
+  
+  .desktop .group-3 {
+    position: absolute;
+    width: 1125px;
+    height: 709px;
+    top: 1719px;
+    left: 159px;
+  }
+  
+  .desktop .picasso-academy-is-2 {
+    top: 141px;
+    position: absolute;
+    width: 656px;
+    left: 0;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: normal;
+  }
+  
+  .desktop .rectangle-3 {
+    width: 455px;
+    height: 322px;
+    top: 75px;
+    left: 666px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 75px;
+    white-space: nowrap;
+  }
+  
+  .desktop .footer-UI-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 350px;
+    top: 2466px;
+    left: 0;
+    background-color: #fbb6303d;
+  }
+  
+  .desktop .footer-UI {
+    position: relative;
+    width: 1108px;
+    height: 328px;
+    left: 159px;
+  }
+  
+  .desktop .element-alyeska-resor {
+    position: absolute;
+    width: 248px;
+    top: 312px;
+    left: 436px;
+    opacity: 0.75;
+    font-family: "Circular Std-Book", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .learn-more {
+    position: absolute;
+    width: 98px;
+    height: 215px;
+    top: 26px;
+    left: 240px;
+    overflow: hidden;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: absolute;
+    width: 98px;
+    top: -5px;
+    left: 0;
+    font-family: "Circular Std-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .about-alyeska-press {
+    position: absolute;
+    width: 94px;
+    top: 38px;
+    left: 0;
+    opacity: 0.8;
+    font-family: "Circular Std-Book", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .desktop .tickets-and-booking {
+    position: absolute;
+    width: 151px;
+    height: 124px;
+    top: 29px;
+    left: 404px;
+    overflow: hidden;
+  }
+  
+  .desktop .tickets-booking {
+    position: absolute;
+    width: 150px;
+    top: -3px;
+    left: 0;
+    font-family: "Circular Std-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .lift-tickets-season {
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    opacity: 0.8;
+    font-family: "Circular Std-Book", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .desktop .contact-us {
+    position: absolute;
+    width: 223px;
+    height: 93px;
+    top: 29px;
+    left: 621px;
+  }
+  
+  .desktop .text-wrapper-9 {
+    position: absolute;
+    width: 93px;
+    top: -4px;
+    left: 0;
+    font-family: "Circular Std-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .group-4 {
+    position: absolute;
+    width: 223px;
+    height: 47px;
+    top: 46px;
+    left: 0;
+  }
+  
+  .desktop .group-5 {
+    position: absolute;
+    width: 223px;
+    height: 17px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: absolute;
+    width: 118px;
+    top: -2px;
+    left: 0;
+    opacity: 0.7;
+    font-family: "Circular Std-Book", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .element-2 {
+    position: absolute;
+    width: 88px;
+    top: -2px;
+    left: 129px;
+    font-family: "Circular Std-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .group-6 {
+    position: absolute;
+    width: 196px;
+    height: 17px;
+    top: 31px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: absolute;
+    width: 87px;
+    top: -2px;
+    left: 0;
+    opacity: 0.7;
+    font-family: "Circular Std-Book", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .element-3 {
+    position: absolute;
+    width: 88px;
+    top: -2px;
+    left: 108px;
+    font-family: "Circular Std-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .social {
+    position: absolute;
+    width: 196px;
+    height: 67px;
+    top: 29px;
+    left: 910px;
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: absolute;
+    width: 51px;
+    top: -4px;
+    left: 0;
+    font-family: "Circular Std-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .group-7 {
+    position: absolute;
+    width: 196px;
+    height: 19px;
+    top: 48px;
+    left: 0;
+  }
+  
+  .desktop .bxl-facebook {
+    position: absolute;
+    width: 9px;
+    height: 17px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .desktop .bxl-twitter {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    top: 2px;
+    left: 80px;
+  }
+  
+  .desktop .instagram-logo {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 1px;
+    left: 35px;
+    background-image: url(https://c.animaapp.com/xIElwt0Q/img/shape-1.svg);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .youtube-logo {
+    position: absolute;
+    width: 23px;
+    height: 15px;
+    top: 2px;
+    left: 126px;
+    background-image: url(https://c.animaapp.com/xIElwt0Q/img/shape.svg);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .object {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 0;
+    left: 175px;
+  }
+  
+  .desktop .divider {
+    position: absolute;
+    width: 1092px;
+    height: 4px;
+    top: 286px;
+    left: 15px;
+    background-color: #1e1e1e;
+    border: 1px solid;
+    opacity: 0.15;
+  }
+  
+  .desktop .element-e-fa-c {
+    width: 136px;
+    height: 94px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
