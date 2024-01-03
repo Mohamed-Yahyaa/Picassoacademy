@@ -131,12 +131,12 @@
   .desktop .picasso-academy-is {
     position: absolute;
     width: 478px;
-    top: 252px;
+    top: 270px;
     left: 0;
     font-family: "Outfit", Helvetica;
     font-weight: 600;
     color: #1e1e1e;
-    font-size: 29px;
+    font-size: 22px;
     letter-spacing: -0.58px;
     line-height: normal;
   }
@@ -162,10 +162,10 @@
   
   .desktop .div-wrapper {
     position: relative;
-    width: 260px;
+    width: 490px;
     height: 102px;
-    top: -90px;
-    left: 80px;
+    top: -20px;
+    left: 40px;
     background-color: #aa151b;
     border-radius: 83px;
   }
@@ -173,7 +173,7 @@
   .desktop .text-wrapper-4 {
     position: absolute;
     top: 33px;
-    left: 104px;
+    left: 68px;
     font-family: "Outfit", Helvetica;
     font-weight: 600;
     color: #ffffff;
@@ -187,6 +187,7 @@
     font-weight: 600;
     color: #ffffff;
     font-size: 29px;
+   
    
     text-decoration:none;
   }
@@ -307,7 +308,7 @@
     font-family: "Outfit", Helvetica;
     font-weight: 600;
     color: #1e1e1e;
-    font-size: 29px;
+    font-size: 22px;
     letter-spacing: -0.58px;
     line-height: normal;
   }
@@ -327,7 +328,7 @@
     width: 393px;
     height: 102px;
     right: 10px;
-    top: 160px;
+    top: 190px;
     background-color: #aa151b;
     border-radius: 83px;
   }
@@ -336,8 +337,8 @@
     position:absolute;
     width: 393px;
     height: 102px;
-    left: 50px;
-    top: 380px;
+    left: 120px;
+    top: 450px;
     background-color: #aa151b;
     border-radius: 83px;
   }
@@ -422,7 +423,7 @@
     font-family: "Outfit", Helvetica;
     font-weight: 600;
     color: #1e1e1e;
-    font-size: 29px;
+    font-size: 22px;
     letter-spacing: -0.58px;
     line-height: normal;
   }
@@ -516,6 +517,21 @@
     width: 360px;
     height: 411px;
   }
+
+  .desktop .group-15 {
+    position: absolute;
+    width: 364px;
+    height: 411px;
+    top: 500px;
+    left: 0;
+  }
+  
+  .desktop .overlap-group-3 {
+    position: relative;
+    width: 360px;
+    height: 411px;
+  }
+  
   
   .desktop .rectangle {
     position: absolute;
@@ -580,8 +596,31 @@
     position: absolute;
     width: 360px;
   }
+
+  .desktop .group-14 {
+    position: absolute;
+    width: 744px;
+    height: 411px;
+    top: 500px;
+    left: 380px;
+  }
+  
+  .desktop .overlap-4 {
+    height: 411px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 360px;
+  }
   
   .desktop .group-5 {
+    position: absolute;
+    width: 364px;
+    height: 411px;
+    top: 0;
+    left: 380px;
+  }
+  .desktop .group-25 {
     position: absolute;
     width: 364px;
     height: 411px;
