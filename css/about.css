@@ -454,48 +454,41 @@
     left: 0;
   }
   
-  .desktop .bxl-facebook {
-    position: absolute;
-    width: 9px;
-    height: 17px;
-    top: 1px;
-    left: 0;
+  .desktop .fa-facebook {
+
+    font-size: 25px;
+    
+    color: blue;
+
+
   }
   
-  .desktop .bxl-twitter {
-    position: absolute;
-    width: 20px;
-    height: 15px;
-    top: 2px;
-    left: 80px;
+  .desktop .fa-whatsapp {
+
+    margin-left: 10px;
+    font-size: 25px;
+    color: green;
   }
-  
-  .desktop .instagram-logo {
-    position: absolute;
-    width: 18px;
-    height: 17px;
-    top: 1px;
-    left: 35px;
-    background-image: url(https://c.animaapp.com/xIElwt0Q/img/shape-1.svg);
-    background-size: 100% 100%;
+
+  .desktop .fa-instagram {
+
+    margin-left: 10px;
+    font-size: 25px;
+    color: #ee2a7b;
   }
-  
-  .desktop .youtube-logo {
-    position: absolute;
-    width: 23px;
-    height: 15px;
-    top: 2px;
-    left: 126px;
-    background-image: url(https://c.animaapp.com/xIElwt0Q/img/shape.svg);
-    background-size: 100% 100%;
+
+  .desktop .fa-x-twitter{
+
+    margin-left: 10px;
+    font-size: 25px;
+    color: black;
   }
-  
-  .desktop .object {
-    position: absolute;
-    width: 20px;
-    height: 19px;
-    top: 0;
-    left: 175px;
+
+  .desktop .fa-youtube{
+
+    margin-left: 10px;
+    font-size: 25px;
+    color: red;
   }
   
   .desktop .divider {
